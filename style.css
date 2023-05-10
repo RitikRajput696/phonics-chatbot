@@ -10,6 +10,7 @@ body {
 }
 
 .chatbot-container {
+    padding: 1rem;
     max-width: 500px;
     width: 90%;
     max-height: 700px;
@@ -17,7 +18,7 @@ body {
     position: absolute;
     right: 1rem;
     bottom: 5rem;
-    left: 1rem;
+    /* left: 1rem; */
     display: none;
 
 }
@@ -42,6 +43,32 @@ body {
 .chatbot-img {
     width: 100%;
     height: auto;
+}
+
+/* chatbotiimage animation */
+.chatbot-icon-container {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: moveUpAndDown 1s infinite alternate;
+}
+
+@-webkit-keyframes moveUpAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes moveUpAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 .show-hide-chatbot {
