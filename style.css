@@ -11,7 +11,7 @@ body {
 
 .chatbot-container {
     max-width: 500px;
-    width: 100%;
+    width: 90%;
     max-height: 700px;
     height: 75%;
     position: absolute;
