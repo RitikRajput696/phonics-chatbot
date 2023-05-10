@@ -6,7 +6,6 @@
 
 body {
     min-height: 100vh;
-    background-color: rgb(174, 235, 243);
 }
 
 .chatbot-container {
@@ -18,7 +17,6 @@ body {
     position: absolute;
     right: 1rem;
     bottom: 5rem;
-    /* left: 1rem; */
     display: none;
 
 }
@@ -29,6 +27,10 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 27px 4px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 9px 27px 4px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 9px 27px 4px rgba(0, 0, 0, 0.33);
+
 }
 
 .chatbot-icon-container {
