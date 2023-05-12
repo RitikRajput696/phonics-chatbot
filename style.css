@@ -48,7 +48,7 @@ body {
     height: auto;
 }
 
-/* chatbotiimage animation */
+/* chatbotimage animation */
 .chatbot-icon-container {
     -webkit-animation: mover 1s infinite alternate;
     animation: moveUpAndDown 1s infinite alternate;
